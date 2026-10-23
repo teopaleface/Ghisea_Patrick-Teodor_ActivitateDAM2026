@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="#F6F5F0">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LABORATOR 4 · G P T" android:textSize="12sp" android:textColor="#1C6B59" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pachete fotografice" android:textSize="30sp" android:textColor="#263A34" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Adaugă un pachet prin formularul de bază sau prin varianta cu design asistat de AI." android:textSize="16sp" android:textColor="#263A34" android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/manual" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:textAllCaps="false" android:text="Adaugă · varianta de bază" android:layout_marginTop="8dp"/>
+        <Button android:id="@+id/ai" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:textAllCaps="false" android:text="Adaugă · design AI" android:layout_marginTop="8dp"/>
+        <TextView android:id="@+id/result" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Niciun pachet adăugat încă." android:textSize="18sp" android:textColor="#263A34" android:padding="16dp" android:background="@drawable/card" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+</ScrollView>

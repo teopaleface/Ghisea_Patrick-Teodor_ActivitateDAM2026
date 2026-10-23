@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="#F6F5F0">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LABORATOR 4 · DESIGN AI" android:textSize="12sp" android:textColor="#1C6B59" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Un cadru. O poveste." android:textSize="30sp" android:textColor="#263A34" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Configurează serviciul foto și salvează pachetul." android:textSize="16sp" android:textColor="#263A34" android:layout_marginBottom="12dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp" android:background="@drawable/card">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Denumirea pachetului" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+            <EditText android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:inputType="text" android:hint="De exemplu: Portret de toamnă" android:singleLine="true" android:layout_marginBottom="12dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Preț în lei" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+            <EditText android:id="@+id/price" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:inputType="numberDecimal" android:hint="De exemplu: 350" android:singleLine="true" android:layout_marginBottom="12dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Durată în minute" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+            <EditText android:id="@+id/duration" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:inputType="number" android:hint="De exemplu: 60" android:singleLine="true" android:layout_marginBottom="12dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Categoria" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+            <Spinner android:id="@+id/category" android:layout_width="match_parent" android:layout_height="56dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Locația" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+            <RadioGroup android:id="@+id/location" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/studio">
+                <RadioButton android:id="@+id/studio" android:layout_width="match_parent" android:layout_height="48dp" android:text="Studio"/>
+                <RadioButton android:id="@+id/exterior" android:layout_width="match_parent" android:layout_height="48dp" android:text="Exterior"/>
+            </RadioGroup>
+            <CheckBox android:id="@+id/album" android:layout_width="match_parent" android:layout_height="56dp" android:text="Include album tipărit"/>
+            <Switch android:id="@+id/editing" android:layout_width="match_parent" android:layout_height="56dp" android:text="Editare profesională" android:checked="true"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Evaluare" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+            <RatingBar android:id="@+id/rating" style="?android:attr/ratingBarStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="0.5" android:rating="4"/>
+        </LinearLayout>
+        <Button android:id="@+id/save" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:textAllCaps="false" android:text="Salvează pachetul" android:layout_marginTop="8dp"/>
+        <Button android:id="@+id/cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:textAllCaps="false" android:text="Renunță" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>

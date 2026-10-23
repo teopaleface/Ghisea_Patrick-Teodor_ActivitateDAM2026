@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="#F6F5F0">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LABORATOR 2–3 · ACTIVITATEA 2" android:textSize="12sp" android:textColor="#1C6B59" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Trimite un calcul" android:textSize="30sp" android:textColor="#263A34" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Un mesaj și două numere călătoresc printr-un Bundle către activitatea 3." android:textSize="16sp" android:textColor="#263A34" android:layout_marginBottom="12dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mesaj" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+        <EditText android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:inputType="text" android:hint="Mesaj" android:singleLine="true" android:layout_marginBottom="12dp" android:text="Salut din Activity 2!"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Primul număr" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+        <EditText android:id="@+id/first" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:inputType="numberSigned" android:hint="Primul număr" android:singleLine="true" android:layout_marginBottom="12dp" android:text="10"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Al doilea număr" android:textSize="14sp" android:textColor="#54675F" android:layout_marginBottom="12dp"/>
+        <EditText android:id="@+id/second" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:inputType="numberSigned" android:hint="Al doilea număr" android:singleLine="true" android:layout_marginBottom="12dp" android:text="20"/>
+        <Button android:id="@+id/send" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:textAllCaps="false" android:text="Deschide activitatea 3" android:layout_marginTop="8dp"/>
+        <TextView android:id="@+id/result" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rezultatul va apărea aici." android:textSize="18sp" android:textColor="#263A34" android:padding="16dp" android:background="@drawable/card" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/open_main" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:textAllCaps="false" android:text="Vezi activitatea 1 · Lifecycle" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>

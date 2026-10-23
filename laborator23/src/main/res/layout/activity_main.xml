@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="#F6F5F0">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LABORATOR 2–3 · ACTIVITATEA 1" android:textSize="12sp" android:textColor="#1C6B59" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ciclul de viață" android:textSize="30sp" android:textColor="#263A34" android:layout_marginBottom="12dp" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Deschide Logcat și filtrează după LifecycleDemo. La revenire se observă onPause și onStop." android:textSize="16sp" android:textColor="#263A34" android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/back" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:textAllCaps="false" android:text="Înapoi la activitatea 2" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>
